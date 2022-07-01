@@ -1,0 +1,587 @@
+body{
+    background-color: #f1f9fc;
+   }
+
+*{
+  margin: 0;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#anima-div  {
+  background: url("../img/distancia.png") -0px;
+  height:346px;
+  width:474px;
+  animation: anima-sprite 1s steps(90) infinite;
+  position: relative;
+  left: 55%;
+  top: 40%;
+}
+
+@keyframes anima-sprite{
+  100%{background-position-x: -45000px;}
+}
+
+#menu{
+    top: 0%;
+    left: 0%;
+    height: 90%;
+    width: 100%;
+    background-color: #07889b;  
+    position: absolute;
+}
+
+
+h2{
+    position: relative;
+    float:left;
+    font-size: 28px;
+    font-family: 'Poppins-LightItalic';
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    margin-left: 26%;
+    font-family: 'Poppins-LightItalic';
+    color: #fff;
+}
+
+.fotologo{
+    width: 100%;
+    height: 100%;
+}
+
+
+.submenu{
+    top: 20px;
+    left: 10%;
+    height: 70px;
+    width: 80%;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.iconeinstagram{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    position:absolute;
+}
+
+.iconett{
+    width: 60px;
+    height: 60px;
+    margin-left: 115px;
+    position: relative;
+ 
+}
+
+
+a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;  
+  }
+
+
+  h4{
+    font-size: 23px;
+    font-family: "Quicksand", Times, serif;
+    color: #004053;
+    font-weight: bold;
+  }
+
+  
+  h5{
+    position: relative;
+    float:left;
+    font-size: 18px;
+    left: 320px;
+    top: 20px;
+    font-family:'Quicksand';
+    color: #00779b;
+    padding: 0 50px ;
+    font-weight: bolder;
+    text-decoration: none !important;
+  }
+
+  h5:hover{
+    text-shadow: 0 0 1px #00607e, 0 0 1px #00607e;
+  }
+
+  h1{
+    font-size: 18px;
+    right: 52px;
+    font-family:'Poppins-Regular', Times, serif;
+    color: #003b4d;
+  }
+
+  .abas{
+    margin-left: -430px;
+    position: absolute;
+    display: flex;
+  }
+
+  .sublogo{
+    left: 350px;
+    bottom: 186px;
+    position: relative;
+  }
+
+  .caixas{
+    width: 90%;
+    height: 400px;
+    top: 710px;
+    margin-left: 50px;
+    position: absolute;
+  }
+
+  .quadroum{
+    width: 350px;
+    height: 250px;
+    left: 150px;
+    background-color: #ecf6fc;
+    border-radius: 12%;
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    box-shadow: 5px 10px 50px #4e4e4e78;
+  }
+
+  .quadrodois{
+    width: 350px;
+    height: 250px;
+    left: 550px;
+    background-color: #ecf6fc;
+    border-radius: 12%;
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    box-shadow: 5px 10px 50px #4e4e4e78;
+  }
+
+  .quadrotres{
+    width: 350px;
+    height: 250px;
+    left: 950px;
+    background-color: #ecf6fc;
+    border-radius: 12%;
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    box-shadow: 5px 10px 50px #4e4e4e78;
+  }
+
+  .pessoa{
+    margin-left: 120px;
+    top: 15px;
+    position: absolute;
+    background-color: #00779b;
+    border-radius: 50%;
+  }
+
+  .brain{
+    margin-left: 120px;
+    top: 15px;
+    position: absolute;
+    background-color: #00779b;
+    border-radius: 50%;
+  }
+
+  .ideia{    
+    margin-left: 120px;
+    top: 15px;
+    position: absolute;
+    background-color: #00779b;
+    border-radius: 50%;
+  }
+
+  .sobre{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 1680px;
+  }
+
+  .subtitulo{
+    left: 20%;
+    top: 45%;
+    column-count: 100px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipe{
+    left: 85%;
+    top: 95%;
+    column-count: 100px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipesobre{
+    right: 20%;
+    top: 100%;
+    position: absolute;
+    display: inline-block;
+    }
+
+  .equipe2{
+    left: 7%;
+    top: 130%;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipesobre2{
+    left: 22%;
+    top: 695px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipe3{
+    left: 6%;
+    top: 250px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipesobre3{
+    margin-left: 22%;
+    top: 49%;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .internet{
+    margin-left: 5%;
+    top: 15%;
+    display: inline-block;
+  }
+  
+  .app{
+    margin-left: 25%;
+    top: 15%;
+    display: inline-block;
+  }
+
+  .arduino{
+  margin-left: 300px;
+  top: 10%;
+  position: relative;
+  display: inline-block;
+  }
+
+  .titulosobre{
+    margin-left: 45%;
+  }
+
+  .integrantes{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 2100px;
+  }
+
+  .titulointegrantes{
+    margin-left: 44%;
+    margin-top: 35%;
+  }
+
+  
+  .titulodistanciamento{
+    position: relative;
+    margin-left: 40%;
+    margin-top: 28%;
+    display:flex;
+  }
+
+  hr{
+    width: 50%;
+    margin-left: 24%;
+  }
+
+  .hrintegrantes{
+    width: 90%;
+    margin-left: -300px;
+  }
+
+  .distanciamento{
+    margin: 0%;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 580px;
+    left: 0%;
+    display: inline-block;
+    
+  }
+
+  .gifdistancia{
+    margin-left: 60%;
+    margin-top: 5%;
+    display: inline-block;
+    border-radius: 20%;
+  }
+
+  .oms{
+    margin-left: 70px;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+  }
+
+  .caixapessoa{
+    margin-top: 36%;
+    text-align: center;
+    margin-left: 3%;
+    width: 320px;
+  }
+
+  .caixabrain{
+    margin-top: 36%;
+    text-align: center;
+    margin-left: 4%;
+    width: 320px;
+  }
+
+  .caixaideia{
+    margin-top: 36%;
+    text-align: center;
+    margin-left: 3%;
+    width: 320px;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
+  .fotoana{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 20px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhaa{
+    left: 40px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobrea{
+    top: 50px;
+    left: 80px;
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .fotodavim{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 90px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhadm{
+    left: 90px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobredm{
+    top: 50px;
+    left: 125px;
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .fotodavil{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 150px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhadl{
+    top: 50px;
+    left: 150px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobredl{
+    top: 49px;
+    left: 190px;
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .fotoat{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 200px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhaat{
+    left: 200px;
+    top: 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobreat{
+    top: 50px;
+    left: 66px;
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  h6{
+    font-family:'BebasNeue-Regular';
+    font-size: 34px;
+    margin-right: 50px;
+    color: #002631;
+  }
+
+  .sobreana{
+    left: 20px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .sobredavimathais{
+    left: 80px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .sobredavilopes{
+    left: 155px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .sobreartur{
+    left: 175px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .fotinhaa img{border-radius: 50%;}
+  .fotinhadm img{border-radius: 50%;}
+  .fotinhadl img{border-radius: 50%;}
+  .fotinhaat img{border-radius: 50%;}
+
+
+  .faixaintegrantes{
+    width: 100%;
+    height: 800px;
+    top: 2100px;
+    background-color: #07879b23;
+    position: relative;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 999;
+    font-size: 18px;
+    border: 1;
+    outline: none;
+    background-color: #ecf6fc;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #myBtn:hover {
+    background-color: #ecf6fc;
+  }
+
+  .scroll{
+    margin-top: -6px;
+    margin-left: -6px;
+  }
+
+  .footer{
+    top: 100%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #00607e;
+  }
+
+  @font-face {
+    src: url(../fonts/quicksand/Quicksand-VariableFont_wght.ttf);
+    font-family: 'Quicksand';
+  }
+
+  @font-face {
+    font-family: 'JosefinSans-VariableFont_wght' ;
+    src: url(../fonts/josefin/JosefinSans-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: 'Poppins-Regular' ;
+    src: url(../fonts/pop/Poppins-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:'Poppins-LightItalic' ;
+    src: url(../fonts/pop/Poppins-LightItalic.ttf);
+  }
+
+  @font-face {
+    font-family:'KdamThmorPro-Regular' ;
+    src: url(../fonts/kdam/KdamThmorPro-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:'BebasNeue-Regular' ;
+    src: url(../fonts/bebas/BebasNeue-Regular.ttf);
+  }
